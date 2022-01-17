@@ -1,0 +1,14 @@
+# Para configurar la rama inicial, puede ser comunmente main
+git config --global init.defaultBranch <branch_name> 
+
+# Para iniciar un repositorio Git
+git init
+
+# Para renombrar una rama
+git -branch <branch_name>
+
+# Agregar archivos al repositorio
+git add <file_name>
+
+# Agregar el commit de la última modificación
+git commit -m "<mensaje>"
