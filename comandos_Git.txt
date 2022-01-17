@@ -23,3 +23,9 @@ git ad .
 # Mostrar el Estado del repositorio
 git status
 
+# Mostrar todas las modificaciones y quién las ha hecho del repositorio
+git show
+
+# Muestra todo el log de un archivo del repositorio
+git log <file_name>
+
