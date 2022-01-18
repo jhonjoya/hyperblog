@@ -29,3 +29,7 @@ git show
 # Muestra todo el log de un archivo del repositorio
 git log <file_name>
 
+
+# INTRODUCCIÓN A LÍNEA DE COMANDOS
+
+
