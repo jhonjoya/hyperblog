@@ -29,7 +29,28 @@ git show
 # Muestra todo el log de un archivo del repositorio
 git log <file_name>
 
+# Ramas comunes en Git
+- Main (a veces también llamada Master) sería la rama principal del proyecto
+- Development (Rama de desarrollo, de realizar pruebas)
+- HotFix (Rama de corregir errores presentes en entornos productivos
 
-# INTRODUCCIÓN A LÍNEA DE COMANDOS
+# Para fusionar ramas o branches de los repositorios
+merge
 
+# Para comparar las cambios en las diferentes versiones
+git diff <num1_commit> <num2_commit>
+
+# Los estados dentro de Git
+- Directorio: El primer estado aquí es el untracked que significa que no se ha trazado o modificado el archivo aún
+
+git add <file_name>
+
+- Staging: Que el archivo ha sido trackeado por el comando 'git add' y se encuentra en la memoria ram
+
+git commit -m "<mensaje>"
+
+- Repositorio: Que el archivo ya ha sido agregado al repositorio por el comando 'git commit -m'
+
+# Para traer los cambios que están en el repositorio, pero no en el directorio local
+checkout
 
