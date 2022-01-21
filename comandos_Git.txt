@@ -57,3 +57,6 @@ checkout
 # Hacer Commits con add directamente
 git commit -am "<commit_mensage>"
 git commit -a # Abre un archivo de texto para insertar el commit
+
+# Crear ramas (branches)
+git branch <new_branch>
