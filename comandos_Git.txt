@@ -54,4 +54,6 @@ git commit -m "<mensaje>"
 # Para traer los cambios que están en el repositorio, pero no en el directorio local
 checkout
 
-# Se van a crear branches
+# Hacer Commits con add directamente
+git commit -am "<commit_mensage>"
+git commit -a # Abre un archivo de texto para insertar el commit
