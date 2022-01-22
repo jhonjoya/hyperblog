@@ -82,3 +82,6 @@ git push origin <branch_to_send>
 
 # Traer desde el repositorio remoto 'origin' al repositorio local
 git pull origin <main>
+
+# Crear llave SSH
+ssh-keygen -t rsa -b 4096 -C "<user_mail_remote_repoitory>"
