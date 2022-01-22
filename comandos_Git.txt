@@ -64,3 +64,6 @@ git branch <branch_name>
 
 # Ir a la branch
 git checkout <branch_name>
+
+# Para fusionar ambas ramas, se posiciona sobra la rama que se quiere como principal y se trae la otra rama.
+git merge <branch_to_add>
