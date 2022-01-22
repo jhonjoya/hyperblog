@@ -91,3 +91,15 @@ eval $(ssh-agent -s)
 
 # Para agregar la llave al agente
 ssh-add <route_of_private_ssh_key>
+
+# Revisar el historial como Ramas en Git
+git log --all --graph --decorate --oneline
+
+# Realizar TAGs para señalar versiones del Repossitorio
+git tag -a <v0.1> -m "<mesage_here>" <hash> # El hash es el mismo número del commit
+
+# Revisar las tags que se tienen
+git tag
+
+# Revisar los hash completos de los tags
+git show-ref --tags
