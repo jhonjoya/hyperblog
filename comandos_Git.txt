@@ -76,3 +76,9 @@ git remote
 
 # Muestra los repositorios remotos de forma verbal
 git remote -v
+
+# Enviar al repositorio remoto lo que tenemos en la rama <branch_to_send>
+git push origin <branch_to_send>
+
+# Traer desde el repositorio remoto 'origin' al repositorio local
+git pull origin <main>
