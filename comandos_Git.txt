@@ -103,3 +103,12 @@ git tag
 
 # Revisar los hash completos de los tags
 git show-ref --tags
+
+# Agregar Tags al repositorio remoto
+git push origin --tags
+
+# Eliminar un tag
+git tag -d <tag_to_delete>
+
+# Eliminar en el repositorio remoto
+git push origin :refs/tags/<tag_to_delete>
