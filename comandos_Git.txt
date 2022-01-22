@@ -85,3 +85,9 @@ git pull origin <main>
 
 # Crear llave SSH
 ssh-keygen -t rsa -b 4096 -C "<user_mail_remote_repoitory>"
+
+# Para verificar que se está ejecutando el conjunto de llaves SSH que tenemos registradas, mandamos
+eval $(ssh-agent -s)
+
+# Para agregar la llave al agente
+ssh-add <route_of_private_ssh_key>
