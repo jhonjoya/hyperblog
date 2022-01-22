@@ -58,5 +58,9 @@ checkout
 git commit -am "<commit_mensage>"
 git commit -a # Abre un archivo de texto para insertar el commit
 
-# Crear ramas (branches)
-git branch <new_branch>
+
+# Crear branches o ramas
+git branch <branch_name>
+
+# Ir a la branch
+git checkout <branch_name>
