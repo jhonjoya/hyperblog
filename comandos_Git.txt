@@ -112,3 +112,6 @@ git tag -d <tag_to_delete>
 
 # Eliminar en el repositorio remoto
 git push origin :refs/tags/<tag_to_delete>
+
+# Mostrar toda la historia de ramas
+git show-branch --all
