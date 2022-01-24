@@ -116,7 +116,10 @@ git push origin :refs/tags/<tag_to_delete>
 # Mostrar toda la historia de ramas
 git show-branch --all
 
-# Para trabajar con Forks:
+### Para trabajar con Forks:
 #1. Se debe crear un fork del proyecto al cual se debe contribuir
 #2. Se debe agregar una nueva fuente diferente a Origin para actualizarla de la fuente original, generalmente se llama upstream
 git remote add upstream <url_parent_fork> # La palabra upstream puede cambiar
+
+#Para actualizar nuestro repositorio desde el Fork parent
+git pull upstream main
