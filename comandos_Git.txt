@@ -123,3 +123,8 @@ git remote add upstream <url_parent_fork> # La palabra upstream puede cambiar
 
 #Para actualizar nuestro repositorio desde el Fork parent
 git pull upstream main
+
+#Para subir los cambios a nuestro fork
+git push origin main
+
+
