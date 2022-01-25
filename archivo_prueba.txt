@@ -1,4 +1,10 @@
 Esta es una primera línea
 
 
+<<<<<<< HEAD
 Esta es la línea de Main
+=======
+
+
+Agregué una línea bien cachonda
+>>>>>>> 14546cd (Agregue la línea cachonda)
