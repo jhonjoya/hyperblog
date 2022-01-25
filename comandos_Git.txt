@@ -127,4 +127,11 @@ git pull upstream main
 #Para subir los cambios a nuestro fork
 git push origin main
 
+# Usar rebase para sobreescribir una rama externa a la rama main, sin dejar historial de esta rama, se hace desde la rama externa
+git rebase main
+
+# 1. Se hace rebase de la rama externa
+# 2. Se hace rebase desde la rama main
+git rebase <extra_branch>
+
 
