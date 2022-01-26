@@ -134,4 +134,15 @@ git rebase main
 # 2. Se hace rebase desde la rama main
 git rebase <extra_branch>
 
+# Devolver los estados hasta donde no se ha modificado ninguna rama en Git
+git stash
+git stash list
+git stash pop # Para volver a los cambios previos de aplicar 'stash'
+git stash branch <new_branch> # envía los nuevos cambios del 'stash' a una nueva rama
+# En la nueva rama, se tiene que hacer 'commit' y 'add' para agregar los cambios 'stasheados' a la nueva branch
+git stash drop #Elimina los 'stashes' existentes
 
+
+# Limpiar de archivos que no se han agregado y no se han añadido
+git clean --dry-run
+git clean -f
