@@ -152,3 +152,6 @@ git clean -f
 git commit --amend
 
 
+# Traer un commit 'viejo' de otra rama al 'main'
+git cherry-pick <commit_hash>
+
