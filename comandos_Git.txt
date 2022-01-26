@@ -155,3 +155,18 @@ git commit --amend
 # Traer un commit 'viejo' de otra rama al 'main'
 git cherry-pick <commit_hash>
 
+
+# Hacer un reseteo gigante del repositorio
+# 1. Ejecutar el comando que muestra completamente los cambios realizados siempre
+git reflog
+# 2. Ejecutar el comando que resetea al último hash
+git reset --HARD <hash_del_HEAD>
+
+# Hacer búsquedas en el repositorio 'grep'
+git grep <lo_que_quiera_buscar>
+git grep -n <lo_que_quiera_buscar> # para saber en qué línea del texto se encuentra
+git grep -c <lo_que_quiera_buscar> # para saber cuántas veces aparece
+
+# Para hacer las búsquedas en los commits
+git log -S <la_palabra_que_quiero_buscar>
+
