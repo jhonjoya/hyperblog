@@ -146,3 +146,6 @@ git stash drop #Elimina los 'stashes' existentes
 # Limpiar de archivos que no se han agregado y no se han añadido
 git clean --dry-run
 git clean -f
+
+# Traer un commit 'viejo' de otra rama al 'main'
+git cherry-pick <commit_hash>
