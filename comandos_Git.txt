@@ -170,3 +170,13 @@ git grep -c <lo_que_quiera_buscar> # para saber cuántas veces aparece
 # Para hacer las búsquedas en los commits
 git log -S <la_palabra_que_quiero_buscar>
 
+# Shortcuts
+git shortlog -sn # mostrar cuántos commits se han hecho por usuarios
+git shortlog -sn --all # Todos los commits, hasta los eliminados
+git shortlog -sn --all --no-merges # Sin los merges
+git config --global alias.<alias_name> "<alias_command>" # Crea un alias en Git
+git blame <file_name> # Muestra quien editó cada línea del archivo
+git <command> --help # Muestra toda la ayuda del comando
+git branch -r # Muestra las ramas remotas
+git branch -a # Muestra las ramas locale y remotas
+
