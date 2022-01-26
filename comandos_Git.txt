@@ -146,3 +146,9 @@ git stash drop #Elimina los 'stashes' existentes
 # Limpiar de archivos que no se han agregado y no se han añadido
 git clean --dry-run
 git clean -f
+
+# Corregir el último commit realizado agregando al nuevo commit
+# 1. Se debe usar el 'git add <file_name> primero
+git commit --amend
+
+
